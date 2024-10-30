@@ -1,0 +1,279 @@
+2024-08-05 15:13:17 INFO  c.ssw.EnvironmentDetailsApplication - Starting EnvironmentDetailsApplication using Java 17.0.11 with PID 2528 (D:\JAVA\TDIT-SpringBoot\EnvironmentDetails\target\classes started by suyash in D:\JAVA\TDIT-SpringBoot\EnvironmentDetails)
+2024-08-05 15:13:17 INFO  c.ssw.EnvironmentDetailsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-05 15:13:17 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-05 15:13:17 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-05 15:13:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 15:13:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2024-08-05 15:13:18 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2024-08-05 15:13:18 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2024-08-05 15:13:18 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-05 15:13:18 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-05 15:13:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-05 15:13:18 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1245 ms
+2024-08-05 15:13:18 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 15:13:19 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 15:13:19 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-05 15:13:19 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 15:13:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-05 15:13:19 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60e86988
+2024-08-05 15:13:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-05 15:13:19 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-05 15:13:20 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 15:13:20 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Application Properties:
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Application Name: EnvironmentDetails
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Server Port: 9091
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Database URL: jdbc:postgresql://localhost:5432/envdetails
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Database Driver: org.postgresql.Driver
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Database Username: postgres
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Database Password: root
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Hibernate Dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Hibernate DDL Auto: update
+2024-08-05 15:13:20 INFO  com.ssw.config.AppPropertiesLogger - Show SQL: true
+2024-08-05 15:13:20 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-05 15:13:20 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-05 15:13:20 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2024-08-05 15:13:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2024-08-05 15:13:20 INFO  c.ssw.EnvironmentDetailsApplication - Started EnvironmentDetailsApplication in 3.684 seconds (process running for 4.568)
+2024-08-05 18:10:14 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 18:10:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-05 18:10:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-05 18:22:59 INFO  c.ssw.EnvironmentDetailsApplication - Starting EnvironmentDetailsApplication using Java 17.0.11 with PID 6680 (D:\JAVA\TDIT-SpringBoot\EnvironmentDetails\target\classes started by suyash in D:\JAVA\TDIT-SpringBoot\EnvironmentDetails)
+2024-08-05 18:22:59 INFO  c.ssw.EnvironmentDetailsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-05 18:22:59 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-05 18:22:59 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-05 18:23:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 18:23:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2024-08-05 18:23:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2024-08-05 18:23:02 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2024-08-05 18:23:02 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-05 18:23:02 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-05 18:23:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-05 18:23:02 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2815 ms
+2024-08-05 18:23:03 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 18:23:03 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 18:23:03 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-05 18:23:03 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 18:23:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-05 18:23:04 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13b64304
+2024-08-05 18:23:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-05 18:23:04 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-05 18:23:05 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 18:23:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Application Properties:
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Application Name: EnvironmentDetails
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Server Port: 9091
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Database URL: jdbc:postgresql://localhost:5432/envdetails
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Database Driver: org.postgresql.Driver
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Database Username: postgres
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Database Password: root
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Hibernate Dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Hibernate DDL Auto: update
+2024-08-05 18:23:05 INFO  com.ssw.config.AppPropertiesLogger - Show SQL: true
+2024-08-05 18:23:05 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-05 18:23:06 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-05 18:23:06 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2024-08-05 18:23:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2024-08-05 18:23:06 INFO  c.ssw.EnvironmentDetailsApplication - Started EnvironmentDetailsApplication in 7.669 seconds (process running for 8.849)
+2024-08-05 18:24:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 18:24:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-05 18:24:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-05 18:24:19 INFO  c.ssw.EnvironmentDetailsApplication - Starting EnvironmentDetailsApplication using Java 17.0.11 with PID 12152 (D:\JAVA\TDIT-SpringBoot\EnvironmentDetails\target\classes started by suyash in D:\JAVA\TDIT-SpringBoot\EnvironmentDetails)
+2024-08-05 18:24:19 INFO  c.ssw.EnvironmentDetailsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-05 18:24:19 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-05 18:24:19 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-05 18:24:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 18:24:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2024-08-05 18:24:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2024-08-05 18:24:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2024-08-05 18:24:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-05 18:24:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-05 18:24:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-05 18:24:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1558 ms
+2024-08-05 18:24:21 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 18:24:21 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 18:24:21 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-05 18:24:22 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 18:24:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-05 18:24:22 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29a63d27
+2024-08-05 18:24:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-05 18:24:22 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-05 18:24:23 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 18:24:23 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Application Properties:
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Application Name: EnvironmentDetails
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Server Port: 9091
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Database URL: jdbc:postgresql://localhost:5432/envdetails
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Database Driver: org.postgresql.Driver
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Database Username: postgres
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Database Password: root
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Hibernate Dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Hibernate DDL Auto: update
+2024-08-05 18:24:23 INFO  com.ssw.config.AppPropertiesLogger - Show SQL: true
+2024-08-05 18:24:23 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-05 18:24:24 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-05 18:24:24 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2024-08-05 18:24:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2024-08-05 18:24:24 INFO  c.ssw.EnvironmentDetailsApplication - Started EnvironmentDetailsApplication in 5.646 seconds (process running for 6.546)
+2024-08-05 18:25:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 18:25:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-05 18:25:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-05 18:25:50 INFO  c.ssw.EnvironmentDetailsApplication - Starting EnvironmentDetailsApplication using Java 17.0.11 with PID 7364 (D:\JAVA\TDIT-SpringBoot\EnvironmentDetails\target\classes started by suyash in D:\JAVA\TDIT-SpringBoot\EnvironmentDetails)
+2024-08-05 18:25:50 INFO  c.ssw.EnvironmentDetailsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-05 18:25:51 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-05 18:25:51 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-05 18:25:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 18:25:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2024-08-05 18:25:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2024-08-05 18:25:52 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2024-08-05 18:25:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-05 18:25:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-05 18:25:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-05 18:25:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1554 ms
+2024-08-05 18:25:52 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 18:25:52 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 18:25:52 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-05 18:25:53 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 18:25:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-05 18:25:53 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e6b4a1
+2024-08-05 18:25:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-05 18:25:53 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-05 18:25:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 18:25:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Application Properties:
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Application Name: EnvironmentDetails
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Server Port: 9091
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Database URL: jdbc:postgresql://localhost:5432/envdetails
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Database Driver: org.postgresql.Driver
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Database Username: postgres
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Database Password: root
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Hibernate Dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Hibernate DDL Auto: update
+2024-08-05 18:25:54 INFO  com.ssw.config.AppPropertiesLogger - Show SQL: true
+2024-08-05 18:25:54 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-05 18:25:54 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-05 18:25:54 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2024-08-05 18:25:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2024-08-05 18:25:55 INFO  c.ssw.EnvironmentDetailsApplication - Started EnvironmentDetailsApplication in 4.604 seconds (process running for 5.343)
+2024-08-05 18:26:46 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 18:26:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-05 18:26:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-05 18:27:39 INFO  c.ssw.EnvironmentDetailsApplication - Starting EnvironmentDetailsApplication using Java 17.0.11 with PID 9656 (D:\JAVA\TDIT-SpringBoot\EnvironmentDetails\target\classes started by suyash in D:\JAVA\TDIT-SpringBoot\EnvironmentDetails)
+2024-08-05 18:27:39 INFO  c.ssw.EnvironmentDetailsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-05 18:27:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-05 18:27:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-05 18:27:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 18:27:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2024-08-05 18:27:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2024-08-05 18:27:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2024-08-05 18:27:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-05 18:27:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-05 18:27:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-05 18:27:41 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1478 ms
+2024-08-05 18:27:41 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 18:27:41 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 18:27:41 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-05 18:27:42 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 18:27:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-05 18:27:42 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3290901e
+2024-08-05 18:27:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-05 18:27:42 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-05 18:27:43 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 18:27:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Application Properties:
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Application Name: EnvironmentDetails
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Server Port: 9091
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Database URL: jdbc:postgresql://localhost:5432/envdetails
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Database Driver: org.postgresql.Driver
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Database Username: postgres
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Database Password: root
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Hibernate Dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Hibernate DDL Auto: update
+2024-08-05 18:27:43 INFO  com.ssw.config.AppPropertiesLogger - Show SQL: true
+2024-08-05 18:27:43 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-05 18:27:43 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-05 18:27:43 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2024-08-05 18:27:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2024-08-05 18:27:43 INFO  c.ssw.EnvironmentDetailsApplication - Started EnvironmentDetailsApplication in 4.523 seconds (process running for 5.221)
+2024-08-05 18:35:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 18:35:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-05 18:35:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-20 17:46:10 INFO  c.ssw.EnvironmentDetailsApplication - Starting EnvironmentDetailsApplication using Java 17.0.12 with PID 11166 (/Users/suyash/Documents/JAVA/TDIT-SpringBoot/EnvironmentDetails/target/classes started by suyash in /Users/suyash/Documents/JAVA/TDIT-SpringBoot/EnvironmentDetails)
+2024-09-20 17:46:10 INFO  c.ssw.EnvironmentDetailsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-20 17:46:10 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-20 17:46:10 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-20 17:46:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-20 17:46:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-09-20 17:46:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2024-09-20 17:46:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2024-09-20 17:46:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-20 17:46:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-20 17:46:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-20 17:46:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 386 ms
+2024-09-20 17:46:10 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-20 17:46:10 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-20 17:46:10 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-20 17:46:10 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-20 17:46:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-20 17:46:11 WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:290)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ssw.EnvironmentDetailsApplication.main(EnvironmentDetailsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-09-20 17:46:11 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-20 17:46:12 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-20 17:46:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Application Properties:
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Application Name: EnvironmentDetails
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Server Port: 9091
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Database URL: jdbc:postgresql://localhost:5432/envdetails
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Database Driver: org.postgresql.Driver
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Database Username: postgres
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Database Password: root
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Hibernate Dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Hibernate DDL Auto: update
+2024-09-20 17:46:12 INFO  com.ssw.config.AppPropertiesLogger - Show SQL: true
+2024-09-20 17:46:12 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-20 17:46:12 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-20 17:46:12 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2024-09-20 17:46:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/'
+2024-09-20 17:46:12 INFO  c.ssw.EnvironmentDetailsApplication - Started EnvironmentDetailsApplication in 2.179 seconds (process running for 2.354)
+2024-09-20 17:49:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
